@@ -9,5 +9,63 @@ body{
 }
 
 .logo{
-    color: white;
+    background-image: linear-gradient(to left, green, yellowgreen);
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+}
+
+.bloco{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: auto;
+   max-width: 220px;
+   background-color: white; 
+   padding: 12px;
+   border-radius: 5px;
+}
+
+.bloco button{
+    margin: 12px;
+    background-color: #86f744;
+    color: darkgreen;
+    border: 1px solid green;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.bloco button:active{
+    background-color: yellowgreen;
+    color: green;
+}
+
+.bloco input{
+    border: 1px solid rgb(51, 79, 51);
+    background-color: rgb(255, 244, 229);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    max-width: 120px;
+}
+
+table{
+    background-color: yellow;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table th{
+    background-color: green;
+    border: 1px solid black;
+}
+
+table tr{
+    border: 1px solid black;
+    
+}
+
+table td{
+    border: 1px solid black;
+    
 }
