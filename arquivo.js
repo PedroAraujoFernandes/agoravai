@@ -1,6 +1,7 @@
 let botao = document.getElementById("botao");
 let resultado = document.getElementById("resultado");
 
+
 botao.onclick = function(){
     
     let altura = document.getElementById("altura").value;
@@ -11,7 +12,12 @@ botao.onclick = function(){
     resposta = peso / (altura * altura);
     resposta = Number(resposta);
     let valor_aredondado = resposta.toFixed(2);
-    resultado.innerHTML = `a resposta é ${valor_aredondado}`;
+    resultado.innerHTML = valor_aredondado;
+    
+    
+    let mar = document.getElementById("bloco");
+    mar.style.height = "400px";
 
     console.log(resposta);
 }
+

@@ -56,6 +56,10 @@ body{
     max-width: 120px;
 }
 
+#resultado{
+    text-decoration: underline;
+}
+
 table{
     background-color: yellow;
     border-collapse: collapse;
