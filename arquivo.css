@@ -21,7 +21,9 @@ body{
    align-items: center;
    margin: auto;
    max-width: 220px;
-   background-color: white; 
+   background-color: white;
+   height: 220px; 
+   overflow: hidden;
    padding: 12px;
    border-radius: 5px;
 }
@@ -33,6 +35,11 @@ body{
     border: 1px solid green;
     border-radius: 2px;
     padding: 5px;
+}
+
+.bloco label{
+    font-weight: bold;
+    margin: 3px;
 }
 
 .bloco button:active{
