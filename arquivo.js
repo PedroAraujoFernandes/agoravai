@@ -16,7 +16,7 @@ botao.onclick = function(){
     
     
     let mar = document.getElementById("bloco");
-    mar.style.height = "400px";
+    mar.style.height = "500px";
 
     console.log(resposta);
 }
